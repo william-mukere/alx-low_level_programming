@@ -1,10 +1,9 @@
 	#include<stdio.h>
 
 	/**
-	 *main -Entry point
-	 *Return: Always 0 (Success)
+	 * main -Entry point
 	 *
-	 * description:the cde will print out the string
+	 * Return : 0
 	 */
 	int main(void)
 	{
