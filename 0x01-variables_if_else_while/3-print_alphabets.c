@@ -6,18 +6,15 @@
 int main(void)
 {
 	int n = 'a';
+
+	for (n = 'a' ; n <= 'z' ; n++)
 	{
-		for (n = 'a' ; n <= 'z' ; n++)
-
-			putchar(n);
+		putchar(n);
 	}
-	int ch = 'A';
+	for (n = 'A' ; n <= 'Z' ; n++)
 	{
-		for (ch = 'A' ; ch <= 'Z' ; ch++)
-
-			putchar(ch);
+		putchar(n);
 	}
-
 	putchar('\n');
 	return (0);
 }
