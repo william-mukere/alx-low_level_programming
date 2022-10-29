@@ -1,3 +1,4 @@
+#include <main.h>
 /**
  * _putchar - The purpose of this function is to print putchar
  * Return:Always 0 (Success)
