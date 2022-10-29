@@ -1,10 +1,11 @@
-#include <main.h>
+#include "main.h"
 /**
  * _putchar - The purpose of this function is to print putchar
  * Return:Always 0 (Success)
  */
-int _putchar(char _putchar)
+int _putchar()
 {
-	return (write(1, &_putchar, 1));
+	int c ="_putchar";
+	_putchar(&c);
 	return (0);
 }
