@@ -1,11 +1,18 @@
 #include "main.h"
 /**
- * _putchar - The purpose of this function is to print putchar
- * Return:Always 0 (Success)
+ * main - The purpose of this function is to print putchar
+ * Return: Always 0 (Success)
  */
-int _putchar()
+int main(void)
 {
-	int c ="_putchar";
-	_putchar(&c);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
