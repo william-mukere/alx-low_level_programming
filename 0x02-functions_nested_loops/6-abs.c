@@ -2,10 +2,10 @@
 #include "main.h"
 /**
  * _abs - function computes absolute value of integer
- * @int: integer
+ * @n: integer
  * Return: Always 0 (Success)
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n, m = n * -1;
 
