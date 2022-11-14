@@ -7,11 +7,11 @@
  */
 int _abs(int n)
 {
-	int n, m = n * -1;
+	int n;
 
 	if (n < 0)
 	{
-	_putchar(m);
+	_putchar(n);
 	}
 	else if (n > 0)
 	{
