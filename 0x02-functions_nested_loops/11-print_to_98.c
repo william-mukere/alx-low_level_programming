@@ -3,7 +3,7 @@
 /**
  * print_to_98 - prints valus from n to 98
  * @n: integer number less than or greater than 98
- * Return: Always 0 (Success)
+ * Return: void
  */
 void print_to_98(int n)
 {
@@ -17,7 +17,7 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar('\n');
 		}
-		return (0);
+		return (void);
 	}
 	else
 	{
@@ -27,6 +27,6 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar('\n');
 		}
-		return (0);
+		return (void);
 	}
 }
