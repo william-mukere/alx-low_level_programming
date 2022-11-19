@@ -4,11 +4,8 @@
  * @int: numbers
  * Return:Always return sum of two numbers
  */
-int add(int, int)
+int add(int a, int b) 
 {
-	int a;
-	int b;
 	int c = a + b;
-
 	return (c);
 }
