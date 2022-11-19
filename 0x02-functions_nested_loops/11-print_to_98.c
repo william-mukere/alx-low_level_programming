@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints valus from n to 98
  * @n: integer number less than or greater than 98
@@ -11,18 +11,14 @@ void print_to_98(int n)
 	{
 		for (; n <= 98; n++)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar('\n');
+			printf("%d,\n", n);
 		}
 	}
 	else
 	{
 		for (; n >= 98; n--)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar('\n');
+			printf("%d,\n", n);
 		}
 	}
 }
