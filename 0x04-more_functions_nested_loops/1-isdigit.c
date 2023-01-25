@@ -2,7 +2,7 @@
 /**
  * _isdigit - check whether a digit is between 0 and 9
  * @c: integer
- * Return: 1 if digit 0 otherwiset number
+ * Return: 1 if digit 0 otherwise
  */
 int _isdigit(int c)
 {
